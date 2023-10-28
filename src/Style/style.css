@@ -1,0 +1,441 @@
+/*******************navBar********************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: #a1a5a85b solid 1px;
+    
+}
+#logo{
+    padding-bottom: 0;
+    width: 15%;
+}
+#logo img{
+    width: 100%;
+}
+.navContent{
+    margin-top:20px;
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 30vw;
+}
+#cont{
+    margin-right: 80px;
+    text-decoration: none;
+   font-weight: 600;
+   font-size: 1.1em;
+    color:#191c23;
+}
+#cont:hover{
+    font-size: 1.15em;
+}
+
+#loginBtn{
+    padding: 9px;
+    margin-left: 20%;
+    width: 120px;
+    border-radius: 100px;
+    border:#191c23 solid 1px;
+    color:#191c23;
+    font-weight: 600;
+    background: none;
+}
+#loginBtn:hover {
+    background-color: #ffb434;
+    color: white;
+    border: white;
+}
+#login{
+    text-decoration: none;
+   font-weight: 600;
+   margin-top: 20px;
+}
+/*****************Footer*********************/
+.footer{
+    text-align: center;
+    width: 75%;
+    border-top: #a1a5a85b solid 1px;
+    height: 100px;
+}
+.footerContent{
+    padding-top: 20px;
+    width: 20%;
+    display: flex;
+    color:#414a52;
+}
+.footerContent h2{
+    color: #414a52;
+}
+
+/*****************LogIn*********************/
+.login{
+    display: flex;
+    justify-content:right;
+    background-color: #f8f6f4;
+}
+.login img{
+    width: 60%;
+    height: 43vw;
+    margin-right: 0px;
+}
+.loginForm{
+    padding-top: 6vw;
+    margin-left: 50px;
+}
+.loginForm h1{
+    color: #191c23;
+    font-size: 3.5em;
+    padding-bottom: 80px;
+}
+#loginLabel{
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+.loginForm input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 30vw;
+    border: #7e7e7e solid 1px;
+    border-radius: 50px;
+}
+#logBtn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1em;
+    color: white;
+    background-color:#191c23;
+    width: 150px;
+ }
+#logBtn:hover{
+    background-color: #ffb434;
+    border: none;
+}
+/****Registration form****/
+.registration{
+    text-align: center;
+    background-color: #f8f6f4;
+    
+}
+.registration h1{
+    padding-top:70px;
+    color:#191c23;
+    font-size: 3.9em;
+
+}
+.registrationForm{
+    padding-top: 50px;
+    height: 30vw;
+    font-size: 1em;
+}
+#regLabel{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+ #regLabel input{
+    margin-top: 10px;
+    padding: 15px;
+    width: 25vw;
+    border: #7e7e7e solid 1px;
+    border-radius: 50px;
+ }
+ #role{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:#a1a5a85b solid 1px;
+ }
+
+
+
+/*****************Home*********************/
+.header{
+    background: url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 49vw;
+    text-align: center;
+  }
+  #header-content{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+#header-content>h1{
+    padding-top: 14vw;
+    font-size: 4em;
+}
+/**search part**/
+#search{
+    padding-top: 4vw;
+
+}
+#search input{
+    width: 30vw;
+    padding: 15px;
+    border: none;
+    /* border-radius: 50px; */
+    background-color: white;
+}
+#search-btn{
+    position: absolute;
+    border: #a1a5a85b solid 1px;
+    width: 50px;
+    height: 46px;
+    right:33.5vw ;
+    background-color: #ffb434;
+    color: white;
+}
+.searchLink{
+    text-decoration: none;
+}
+.searchResult{
+    position: relative;
+    height: 7vw;
+    width: 31.9vw;
+    border-top: #a1a5a85b solid 1px;
+    display: flex;
+    background-color: white;
+    color: #414a52;
+    text-align: left;
+}
+.searchResult img{
+    width: 150px;
+    height: 100%;
+    
+}
+#searchContent{
+    padding-left: 6px;
+}
+
+
+/****about Us****/
+.aboutUs{
+    display: flex;
+    padding: 100px 50px 80px 0px;
+    height: 50vw;
+}
+.aboutContent{
+    padding-top: 150px;
+    width: 70%;
+    background-color:#f8f6f4;
+    color:#414a52;
+    height: 80%;
+    padding: 100px;
+}
+.aboutContent h1{
+font-size: 4em;
+}
+.aboutContent p{
+    width: 50%;
+    margin-left: 10px;
+    color: slategray;
+}
+#aboutimg{
+    height: 45vw;
+    position:absolute;
+    margin-left: 60vw;
+    margin-top: 50px;
+    animation: translateImage 2s linear ; /* Adjust the duration (5s) and animation type (linear) as needed */
+}
+
+@keyframes translateImage {
+  0% {
+    transform: translateX(100%); /* Start from the left */
+  }
+  100% {
+    transform: translateX(0); /* Move to the right (100% of the container width) */
+  }
+}
+
+
+/****services****/
+.servicePart{
+    background: url("https://pnglib.nyc3.cdn.digitaloceanspaces.com/uploads/2020/01/real-estate_5e18e800a1e72.png");
+    background-repeat: no-repeat;
+    background-position-y:90px;
+    background-position-x: center;
+}
+.services{
+    height: 18vw;
+    background-color:rgba(255, 255, 255, 0.85) ;
+    display: flex;
+    justify-content: space-between;
+    padding:80px 100px;
+    gap: 150px;
+    text-align: center;
+}
+#seviceIcon{
+    height: 6vw;
+}
+.services h1{
+    font-size: 2em;
+    color: #7295c8;
+    padding:15px 0 15px 0;
+}
+.services p{
+    color: #7e7e7e;
+}
+
+#serviceBtn{
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #7295c8;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+
+}
+/**************property Card*********/
+.propertyCard{
+    height: 26vw;
+    width:30%;
+    background-color:#f8f6f4;
+    border: #a1a5a85b solid 1px;
+}
+.propertyCard img{
+    width: 100%;
+    height:55% ;
+}
+.propertyContent{
+    padding: 5px 10px 10px 20px;
+    color: #191c23;
+}
+.propertyContent p{
+    color:#7e7e7e;
+}
+
+#type{
+    display: flex;
+}
+#type h2{
+margin-left: 0;
+padding-right: 35%;
+}
+
+#viewMore{
+    color: #7295c8;
+}
+/********View More Details********/
+.propDetails{
+    display: flex;
+   
+}
+.details{
+    
+    height: 42vw;
+    margin-left: 0;
+   
+}
+#detailsContent{
+ position: absolute;
+top: 35vw;
+width: 59.7%;
+padding-top: 10px;
+padding-left: 30px;
+background-color: white;
+}
+#detailsContent h1{
+padding-bottom: 5px;
+}
+.details img{
+  margin-left: 0;
+    width: 100%;
+    height: 36vw;
+}
+.reserve{
+    padding: 0;
+    margin: 0;
+   width: 40%;
+}
+
+/*********************Buy & rent*******************************/
+.cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap:50px;
+    padding: 50px;
+    width: 75%;
+}
+.allContent{
+    display: flex;
+    
+    
+}
+.filter{
+    height: 36vw;
+    border-right: #a1a5a85b solid 1px;
+    padding: 20px 50px 0 5px;
+    margin-top: 80px;
+}
+#filter-title{
+    padding-bottom: 20px;
+    color: #191c23;
+}
+.filter button{
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #1976d2;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+}
+/****filters****/
+#roomNumber{
+padding-top: 15px;
+
+}
+#roomNumber h4{
+    padding-bottom: 6px;
+    
+}
+/**/
+#typePart {
+padding-top: 15px;
+}
+#typePart h4{
+    padding-bottom: 6px;  
+}
+
+/**********************Sell***********************************/
+.addProperty{
+    height: 43vw;
+    background: url('https://images.unsplash.com/photo-1594540992254-0e2239661647?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.addProperty h1{
+    color: whitesmoke;
+    font-size: 4.2em;
+    padding-top: 12vw;
+}
+.propertyForm{
+padding-top: 50px;
+border-radius: 10px;
+}
+.propertyForm input{
+padding: 10px;
+margin-right: 1px;
+}
+#addBtn{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1em;
+    color: white;
+    background-color:#ffb434;
+    width: 150px;
+    border: none;
+}
