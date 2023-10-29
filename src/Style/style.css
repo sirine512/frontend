@@ -327,7 +327,7 @@ padding-right: 35%;
    
 }
 .details{
-    
+    width:60%;
     height: 42vw;
     margin-left: 0;
    
@@ -335,7 +335,7 @@ padding-right: 35%;
 #detailsContent{
  position: absolute;
 top: 35vw;
-width: 59.7%;
+width: 58%;
 padding-top: 10px;
 padding-left: 30px;
 background-color: white;
@@ -346,7 +346,7 @@ padding-bottom: 5px;
 .details img{
   margin-left: 0;
     width: 100%;
-    height: 36vw;
+   
 }
 .reserve{
     padding: 0;
